@@ -23,17 +23,17 @@ $INSBASE
   9
 $EXTMIN
  10
--0.5
+10000000000
  20
-0.25
+10000000000
  30
 0
   9
 $EXTMAX
  10
-419.5
+-10000000000
  20
-297.25
+-10000000000
  30
 0
   9
@@ -31957,46 +31957,6 @@ ByLayer
 100
 AcDbBlockReference
   2
-Terminal-in-0
- 10
-223
- 20
-88
- 30
-0
- 41
-1
- 42
-1
- 43
-0
- 50
-180
- 70
-    1
- 71
-    1
- 44
-0
- 45
-0
-  0
-INSERT
-  5
-429
-100
-AcDbEntity
-  8
-schematic
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbBlockReference
-  2
 mcp2014x-connector-13
  10
 240
@@ -32023,7 +31983,7 @@ mcp2014x-connector-13
   0
 INSERT
   5
-42A
+429
 100
 AcDbEntity
   8
@@ -32063,7 +32023,7 @@ AcDbBlockReference
   0
 LINE
   5
-42B
+42A
 100
 AcDbEntity
   8
@@ -32087,7 +32047,7 @@ AcDbLine
   0
 LINE
   5
-42C
+42B
 100
 AcDbEntity
   8
@@ -32111,7 +32071,7 @@ AcDbLine
   0
 MTEXT
   5
-42D
+42C
 100
 AcDbEntity
   8
@@ -32157,7 +32117,7 @@ standard
   0
 MTEXT
   5
-42E
+42D
 100
 AcDbEntity
   8
@@ -32203,47 +32163,7 @@ standard
   0
 INSERT
   5
-42F
-100
-AcDbEntity
-  8
-schematic
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbBlockReference
-  2
-Terminal-in-1
- 10
-240
- 20
-88
- 30
-0
- 41
-1
- 42
-1
- 43
-0
- 50
-180
- 70
-    1
- 71
-    1
- 44
-0
- 45
-0
-  0
-INSERT
-  5
-430
+42E
 100
 AcDbEntity
   8
@@ -32283,7 +32203,7 @@ Terminal-in
   0
 INSERT
   5
-431
+42F
 100
 AcDbEntity
   8
@@ -32323,7 +32243,7 @@ Terminal-in
   0
 MTEXT
   5
-432
+430
 100
 AcDbEntity
   8
@@ -32369,7 +32289,7 @@ standard
   0
 MTEXT
   5
-433
+431
 100
 AcDbEntity
   8
@@ -32415,7 +32335,7 @@ standard
   0
 MTEXT
   5
-434
+432
 100
 AcDbEntity
   8
@@ -32461,7 +32381,7 @@ standard
   0
 MTEXT
   5
-435
+433
 100
 AcDbEntity
   8
@@ -32507,7 +32427,7 @@ standard
   0
 MTEXT
   5
-436
+434
 100
 AcDbEntity
   8
@@ -32553,7 +32473,7 @@ standard
   0
 MTEXT
   5
-437
+435
 100
 AcDbEntity
   8
