@@ -23,17 +23,17 @@ $INSBASE
   9
 $EXTMIN
  10
-10000000000
+-0.5
  20
-10000000000
+0.25
  30
 0
   9
 $EXTMAX
  10
--10000000000
+419.5
  20
--10000000000
+297.25
  30
 0
   9
@@ -1115,9 +1115,9 @@ AcDbViewportTableRecord
  21
 1
  12
-247.5744830416378
+232.6792899408284
  22
-152.4289804463967
+150.2573964497041
  13
 0
  23
@@ -1143,7 +1143,7 @@ AcDbViewportTableRecord
  37
 0
  40
-339.3849886386952
+304.0295857988166
  41
 1.680924855491329
  42
@@ -2401,7 +2401,7 @@ AcDbSymbolTableRecord
 100
 AcDbTextStyleTableRecord
   2
-iso
+standard
  70
     0
  40
@@ -2415,7 +2415,7 @@ iso
  42
 1
   3
-iso
+standard
   4
 
   0
@@ -2429,7 +2429,7 @@ AcDbSymbolTableRecord
 100
 AcDbTextStyleTableRecord
   2
-standard
+iso
  70
     0
  40
@@ -2443,7 +2443,7 @@ standard
  42
 1
   3
-standard
+iso
   4
 
   0
@@ -6763,13 +6763,13 @@ ByLayer
 100
 AcDbLine
  10
-90
+70
  20
-260
+230
  11
-110
+80
  21
-260
+230
   0
 LINE
   5
@@ -6787,15 +6787,15 @@ ByLayer
 100
 AcDbLine
  10
-110
- 20
-260
- 11
 120
+ 20
+230
+ 11
+130
  21
-268
+230
   0
-LINE
+INSERT
   5
 D4
 100
@@ -6809,15 +6809,31 @@ ByLayer
 370
    -1
 100
-AcDbLine
+AcDbBlockReference
+  2
+Terminal-in-1
  10
-120
+290
  20
-268
- 11
-120
- 21
-260
+270
+ 30
+0
+ 41
+1
+ 42
+1
+ 43
+0
+ 50
+180
+ 70
+    1
+ 71
+    1
+ 44
+1
+ 45
+1
   0
 LINE
   5
@@ -6835,13 +6851,13 @@ ByLayer
 100
 AcDbLine
  10
-120
+290
  20
-260
+250
  11
-130
+290
  21
-260
+230
   0
 LINE
   5
@@ -6859,11 +6875,11 @@ ByLayer
 100
 AcDbLine
  10
-70
+290
  20
 230
  11
-80
+300
  21
 230
   0
@@ -6883,15 +6899,15 @@ ByLayer
 100
 AcDbLine
  10
-120
+300
  20
 230
  11
-130
+310
  21
-230
+240
   0
-INSERT
+LINE
   5
 D8
 100
@@ -6905,31 +6921,15 @@ ByLayer
 370
    -1
 100
-AcDbBlockReference
-  2
-Terminal-in-1
+AcDbLine
  10
-290
+310
  20
-270
- 30
-0
- 41
-1
- 42
-1
- 43
-0
- 50
-180
- 70
-    1
- 71
-    1
- 44
-1
- 45
-1
+240
+ 11
+310
+ 21
+230
   0
 LINE
   5
@@ -6947,11 +6947,11 @@ ByLayer
 100
 AcDbLine
  10
-290
+310
  20
-250
+230
  11
-290
+320
  21
 230
   0
@@ -6971,13 +6971,13 @@ ByLayer
 100
 AcDbLine
  10
-290
+320
  20
 230
  11
-300
+330
  21
-230
+240
   0
 LINE
   5
@@ -6995,113 +6995,17 @@ ByLayer
 100
 AcDbLine
  10
-300
+330
  20
-230
- 11
-310
- 21
 240
+ 11
+330
+ 21
+230
   0
 LINE
   5
 DC
-100
-AcDbEntity
-  8
-schematic
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
-310
- 20
-240
- 11
-310
- 21
-230
-  0
-LINE
-  5
-DD
-100
-AcDbEntity
-  8
-schematic
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
-310
- 20
-230
- 11
-320
- 21
-230
-  0
-LINE
-  5
-DE
-100
-AcDbEntity
-  8
-schematic
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
-320
- 20
-230
- 11
-330
- 21
-240
-  0
-LINE
-  5
-DF
-100
-AcDbEntity
-  8
-schematic
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
-330
- 20
-240
- 11
-330
- 21
-230
-  0
-LINE
-  5
-E0
 100
 AcDbEntity
   8
@@ -7125,7 +7029,7 @@ AcDbLine
   0
 LINE
   5
-E1
+DD
 100
 AcDbEntity
   8
@@ -7149,7 +7053,7 @@ AcDbLine
   0
 INSERT
   5
-E2
+DE
 100
 AcDbEntity
   8
@@ -7189,7 +7093,7 @@ Terminal-in-1
   0
 LINE
   5
-E3
+DF
 100
 AcDbEntity
   8
@@ -7208,6 +7112,102 @@ AcDbLine
 250
  11
 288
+ 21
+250
+  0
+LINE
+  5
+E0
+100
+AcDbEntity
+  8
+schematic
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+288
+ 20
+250
+ 11
+290
+ 21
+253
+  0
+LINE
+  5
+E1
+100
+AcDbEntity
+  8
+schematic
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+290
+ 20
+253
+ 11
+292
+ 21
+250
+  0
+LINE
+  5
+E2
+100
+AcDbEntity
+  8
+schematic
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+292
+ 20
+250
+ 11
+290
+ 21
+250
+  0
+LINE
+  5
+E3
+100
+AcDbEntity
+  8
+schematic
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+340
+ 20
+250
+ 11
+338
  21
 250
   0
@@ -7227,113 +7227,17 @@ ByLayer
 100
 AcDbLine
  10
-288
+338
  20
 250
  11
-290
+340
  21
 253
   0
 LINE
   5
 E5
-100
-AcDbEntity
-  8
-schematic
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
-290
- 20
-253
- 11
-292
- 21
-250
-  0
-LINE
-  5
-E6
-100
-AcDbEntity
-  8
-schematic
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
-292
- 20
-250
- 11
-290
- 21
-250
-  0
-LINE
-  5
-E7
-100
-AcDbEntity
-  8
-schematic
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
-340
- 20
-250
- 11
-338
- 21
-250
-  0
-LINE
-  5
-E8
-100
-AcDbEntity
-  8
-schematic
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
-338
- 20
-250
- 11
-340
- 21
-253
-  0
-LINE
-  5
-E9
 100
 AcDbEntity
   8
@@ -7357,7 +7261,7 @@ AcDbLine
   0
 LINE
   5
-EA
+E6
 100
 AcDbEntity
   8
@@ -7381,7 +7285,7 @@ AcDbLine
   0
 MTEXT
   5
-EB
+E7
 100
 AcDbEntity
   8
@@ -7427,7 +7331,7 @@ standard
   0
 MTEXT
   5
-EC
+E8
 100
 AcDbEntity
   8
@@ -7473,7 +7377,7 @@ standard
   0
 MTEXT
   5
-ED
+E9
 100
 AcDbEntity
   8
@@ -7519,7 +7423,7 @@ standard
   0
 MTEXT
   5
-EE
+EA
 100
 AcDbEntity
   8
@@ -7565,7 +7469,7 @@ standard
   0
 MTEXT
   5
-EF
+EB
 100
 AcDbEntity
   8
@@ -7611,7 +7515,7 @@ standard
   0
 MTEXT
   5
-F0
+EC
 100
 AcDbEntity
   8
@@ -7657,7 +7561,7 @@ standard
   0
 MTEXT
   5
-F1
+ED
 100
 AcDbEntity
   8
@@ -7703,7 +7607,7 @@ standard
   0
 MTEXT
   5
-F2
+EE
 100
 AcDbEntity
   8
@@ -7749,7 +7653,7 @@ standard
   0
 MTEXT
   5
-F3
+EF
 100
 AcDbEntity
   8
@@ -7795,7 +7699,7 @@ standard
   0
 MTEXT
   5
-F4
+F0
 100
 AcDbEntity
   8
@@ -7841,53 +7745,7 @@ standard
   0
 MTEXT
   5
-F5
-100
-AcDbEntity
-  8
-labels
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbMText
- 10
-115
- 20
-257
- 30
-0
- 40
-3
- 41
-4.333333333333333
- 71
-    2
- 72
-    1
-  1
-EM
-  7
-standard
-210
-0
-220
-0
-230
-1
- 50
-0
- 73
-    2
- 44
-1
-  0
-MTEXT
-  5
-F6
+F1
 100
 AcDbEntity
   8
@@ -7933,7 +7791,7 @@ standard
   0
 MTEXT
   5
-F7
+F2
 100
 AcDbEntity
   8
@@ -7979,99 +7837,7 @@ standard
   0
 MTEXT
   5
-F8
-100
-AcDbEntity
-  8
-labels
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbMText
- 10
-108
- 20
-265
- 30
-0
- 40
-3
- 41
-1.333333333333519
- 71
-    2
- 72
-    1
-  1
-9
-  7
-standard
-210
-0
-220
-0
-230
-1
- 50
-0
- 73
-    2
- 44
-1
-  0
-MTEXT
-  5
-F9
-100
-AcDbEntity
-  8
-labels
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbMText
- 10
-123
- 20
-265
- 30
-0
- 40
-3
- 41
-0.6666666666666666
- 71
-    2
- 72
-    1
-  1
-1
-  7
-standard
-210
-0
-220
-0
-230
-1
- 50
-0
- 73
-    2
- 44
-1
-  0
-MTEXT
-  5
-FA
+F3
 100
 AcDbEntity
   8
@@ -8117,7 +7883,7 @@ standard
   0
 MTEXT
   5
-FB
+F4
 100
 AcDbEntity
   8
@@ -8163,7 +7929,7 @@ standard
   0
 MTEXT
   5
-FC
+F5
 100
 AcDbEntity
   8
@@ -8209,7 +7975,7 @@ standard
   0
 MTEXT
   5
-FD
+F6
 100
 AcDbEntity
   8
@@ -8255,7 +8021,7 @@ standard
   0
 MTEXT
   5
-FE
+F7
 100
 AcDbEntity
   8
@@ -8298,6 +8064,30 @@ standard
     2
  44
 1
+  0
+LINE
+  5
+F8
+100
+AcDbEntity
+  8
+schematic
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+90
+ 20
+260
+ 11
+130
+ 21
+260
   0
 ENDSEC
   0
