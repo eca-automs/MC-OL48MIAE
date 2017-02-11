@@ -23,17 +23,17 @@ $INSBASE
   9
 $EXTMIN
  10
--0.5
+10000000000
  20
-0.25
+10000000000
  30
 0
   9
 $EXTMAX
  10
-419.5
+-10000000000
  20
-297.25
+-10000000000
  30
 0
   9
@@ -20427,7 +20427,7 @@ AcDbMText
  72
     1
   1
-Schema: MC-OL48MIAE\PAutore: Belardi\PData: 01/16\PFoglio: 5 di 18
+Schema: MC-OL48MIAE\PFoglio: 5 di 18
   7
 standard
 210

@@ -23,17 +23,17 @@ $INSBASE
   9
 $EXTMIN
  10
--0.5
+10000000000
  20
-0.25
+10000000000
  30
 0
   9
 $EXTMAX
  10
-419.5
+-10000000000
  20
-297.25
+-10000000000
  30
 0
   9
@@ -15091,55 +15091,9 @@ AcDbLine
  21
 202
   0
-MTEXT
-  5
-1EC
-100
-AcDbEntity
-  8
-frame-title
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbMText
- 10
-303
- 20
-36
- 30
-0
- 40
-3
- 41
-43.91666603066063
- 71
-    1
- 72
-    1
-  1
-Schema: MC-OL48MIAE\PAutore: Belardi\PData: 01/16\PFoglio: 3 di 18
-  7
-standard
-210
-0
-220
-0
-230
-1
- 50
-0
- 73
-    2
- 44
-1
-  0
 LINE
   5
-1ED
+1EC
 100
 AcDbEntity
   8
@@ -15163,7 +15117,7 @@ AcDbLine
   0
 LINE
   5
-1EE
+1ED
 100
 AcDbEntity
   8
@@ -15187,7 +15141,7 @@ AcDbLine
   0
 LINE
   5
-1EF
+1EE
 100
 AcDbEntity
   8
@@ -15206,6 +15160,30 @@ AcDbLine
 110.0019209949416
  11
 325.0122421331263
+ 21
+120.0019209949417
+  0
+LINE
+  5
+1EF
+100
+AcDbEntity
+  8
+schematic
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+325.0122421331263
+ 20
+120.0019209949417
+ 11
+335.0122421331263
  21
 120.0019209949417
   0
@@ -15227,30 +15205,6 @@ AcDbLine
  10
 325.0122421331263
  20
-120.0019209949417
- 11
-335.0122421331263
- 21
-120.0019209949417
-  0
-LINE
-  5
-1F1
-100
-AcDbEntity
-  8
-schematic
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
-325.0122421331263
- 20
 110.0019209949416
  11
 335.0122421331263
@@ -15259,7 +15213,7 @@ AcDbLine
   0
 CIRCLE
   5
-1F2
+1F1
 100
 AcDbEntity
   8
@@ -15281,7 +15235,7 @@ AcDbCircle
   0
 CIRCLE
   5
-1F3
+1F2
 100
 AcDbEntity
   8
@@ -15303,7 +15257,7 @@ AcDbCircle
   0
 LINE
   5
-1F4
+1F3
 100
 AcDbEntity
   8
@@ -15327,7 +15281,7 @@ AcDbLine
   0
 ARC
   5
-1F5
+1F4
 100
 AcDbEntity
   8
@@ -15355,7 +15309,7 @@ AcDbArc
   0
 CIRCLE
   5
-1F6
+1F5
 100
 AcDbEntity
   8
@@ -15377,7 +15331,7 @@ AcDbCircle
   0
 CIRCLE
   5
-1F7
+1F6
 100
 AcDbEntity
   8
@@ -15399,7 +15353,7 @@ AcDbCircle
   0
 LINE
   5
-1F8
+1F7
 100
 AcDbEntity
   8
@@ -15423,7 +15377,7 @@ AcDbLine
   0
 ARC
   5
-1F9
+1F8
 100
 AcDbEntity
   8
@@ -15451,6 +15405,30 @@ AcDbArc
   0
 LINE
   5
+1F9
+100
+AcDbEntity
+  8
+schematic
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+345.0122421331263
+ 20
+110.0019209949416
+ 11
+365.0122421331263
+ 21
+110.0019209949416
+  0
+LINE
+  5
 1FA
 100
 AcDbEntity
@@ -15467,39 +15445,15 @@ AcDbLine
  10
 345.0122421331263
  20
-110.0019209949416
+120.0019209949417
  11
 365.0122421331263
  21
-110.0019209949416
+120.0019209949417
   0
 LINE
   5
 1FB
-100
-AcDbEntity
-  8
-schematic
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
-345.0122421331263
- 20
-120.0019209949417
- 11
-365.0122421331263
- 21
-120.0019209949417
-  0
-LINE
-  5
-1FC
 100
 AcDbEntity
   8
@@ -15523,7 +15477,7 @@ AcDbLine
   0
 LINE
   5
-1FD
+1FC
 100
 AcDbEntity
   8
@@ -15547,7 +15501,7 @@ AcDbLine
   0
 LINE
   5
-1FE
+1FD
 100
 AcDbEntity
   8
@@ -15571,7 +15525,7 @@ AcDbLine
   0
 LINE
   5
-1FF
+1FE
 100
 AcDbEntity
   8
@@ -15595,7 +15549,7 @@ AcDbLine
   0
 LINE
   5
-200
+1FF
 100
 AcDbEntity
   8
@@ -15619,7 +15573,7 @@ AcDbLine
   0
 LINE
   5
-201
+200
 100
 AcDbEntity
   8
@@ -15643,7 +15597,7 @@ AcDbLine
   0
 LINE
   5
-202
+201
 100
 AcDbEntity
   8
@@ -15667,7 +15621,7 @@ AcDbLine
   0
 LINE
   5
-203
+202
 100
 AcDbEntity
   8
@@ -15691,7 +15645,7 @@ AcDbLine
   0
 MTEXT
   5
-204
+203
 100
 AcDbEntity
   8
@@ -15737,7 +15691,7 @@ standard
   0
 MTEXT
   5
-205
+204
 100
 AcDbEntity
   8
@@ -15783,7 +15737,7 @@ standard
   0
 MTEXT
   5
-206
+205
 100
 AcDbEntity
   8
@@ -15829,7 +15783,7 @@ standard
   0
 MTEXT
   5
-207
+206
 100
 AcDbEntity
   8
@@ -15875,7 +15829,7 @@ standard
   0
 LINE
   5
-208
+207
 100
 AcDbEntity
   8
@@ -15899,7 +15853,7 @@ AcDbLine
   0
 INSERT
   5
-209
+208
 100
 AcDbEntity
   8
@@ -15939,7 +15893,7 @@ vd1
   0
 LINE
   5
-20A
+209
 100
 AcDbEntity
   8
@@ -15963,7 +15917,7 @@ AcDbLine
   0
 LINE
   5
-20B
+20A
 100
 AcDbEntity
   8
@@ -15987,7 +15941,7 @@ AcDbLine
   0
 LINE
   5
-20C
+20B
 100
 AcDbEntity
   8
@@ -16011,7 +15965,7 @@ AcDbLine
   0
 LINE
   5
-20D
+20C
 100
 AcDbEntity
   8
@@ -16035,7 +15989,7 @@ AcDbLine
   0
 LINE
   5
-20E
+20D
 100
 AcDbEntity
   8
@@ -16059,7 +16013,7 @@ AcDbLine
   0
 INSERT
   5
-20F
+20E
 100
 AcDbEntity
   8
@@ -16095,6 +16049,52 @@ junction
  44
 1
  45
+1
+  0
+MTEXT
+  5
+20F
+100
+AcDbEntity
+  8
+frame-title
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbMText
+ 10
+303
+ 20
+36
+ 30
+0
+ 40
+3
+ 41
+43.91666603066063
+ 71
+    1
+ 72
+    1
+  1
+Schema: MC-OL48MIAE\PFoglio: 3 di 18
+  7
+standard
+210
+0
+220
+0
+230
+1
+ 50
+0
+ 73
+    2
+ 44
 1
   0
 ENDSEC
