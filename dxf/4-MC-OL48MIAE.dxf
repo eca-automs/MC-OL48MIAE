@@ -23,17 +23,17 @@ $INSBASE
   9
 $EXTMIN
  10
--0.5
+10000000000
  20
-0.25
+10000000000
  30
 0
   9
 $EXTMAX
  10
-419.5
+-10000000000
  20
-297.25
+-10000000000
  30
 0
   9
@@ -19935,55 +19935,9 @@ standard
  44
 1
   0
-MTEXT
-  5
-278
-100
-AcDbEntity
-  8
-frame-title
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbMText
- 10
-303
- 20
-37
- 30
-0
- 40
-3
- 41
-43.91666603066063
- 71
-    1
- 72
-    1
-  1
-Schema: MC-OL48MIAE\PAutore: Belardi\PData: 01/16\PFoglio: 4 di 18
-  7
-standard
-210
-0
-220
-0
-230
-1
- 50
-0
- 73
-    2
- 44
-1
-  0
 INSERT
   5
-279
+278
 100
 AcDbEntity
   8
@@ -20023,7 +19977,7 @@ Terminal-in-0
   0
 LINE
   5
-27A
+279
 100
 AcDbEntity
   8
@@ -20044,6 +19998,52 @@ AcDbLine
 257
  21
 120
+  0
+MTEXT
+  5
+27A
+100
+AcDbEntity
+  8
+frame-title
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbMText
+ 10
+303
+ 20
+37
+ 30
+0
+ 40
+3
+ 41
+43.91666603066063
+ 71
+    1
+ 72
+    1
+  1
+Schema: MC-OL48MIAE\PFoglio: 4 di 18
+  7
+standard
+210
+0
+220
+0
+230
+1
+ 50
+0
+ 73
+    2
+ 44
+1
   0
 ENDSEC
   0
